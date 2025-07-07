@@ -57,8 +57,14 @@ cd rockgym
 
 ### 2. Create Virtual Environment
 ```bash
-#Activate Virtual ENv
- .\env\Scripts\activate      
+# Create virtual environment
+   python -m venv gym_env
+
+# Activate virtual environment
+# On Windows:
+gym_env\Scripts\activate
+# On macOS/Linux:
+source gym_env/bin/activate
 ```
 
 ### 3. Install Dependencies
